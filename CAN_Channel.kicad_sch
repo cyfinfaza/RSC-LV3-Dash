@@ -5,119 +5,6 @@
 	(uuid "31e2edfe-81b2-4c12-83db-ebde710f3eef")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x01"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -613,49 +500,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:SLW-864587-2A-RA-N-D"
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
-			(property "Reference" "S"
-				(at 19.05 7.62 0)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "SLW-864587-2A-RA-N-D"
-				(at 19.05 5.08 0)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "SLW8645872ARAND"
-				(at 19.05 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.sameskydevices.com/product/resource/slw-864587-2a-ra-n-d.pdf"
-				(at 19.05 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "8.6 x 4.5 x 8.7 mm, 2 mm Raised Slide Actuator, Right Angle, Through Hole, Slide Switch"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -664,90 +536,121 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "6.3"
-				(at 19.05 -394.92 0)
+			(property "Datasheet" "~"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "179-SLW8645872ARAND"
-				(at 19.05 -494.92 0)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/SLW-864587-2A-RA-N-D?qs=IKkN%2F947nfDwxE1B2lS5tw%3D%3D"
-				(at 19.05 -594.92 0)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Same Sky"
-				(at 19.05 -694.92 0)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "SLW-864587-2A-RA-N-D"
-				(at 19.05 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
 					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "SLW-864587-2A-RA-N-D_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 17.78 -12.7)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
 				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "NC"
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -763,9 +666,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "COM"
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -773,42 +676,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "NO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1047,7 +914,7 @@
 		)
 	)
 	(junction
-		(at 62.23 74.93)
+		(at 74.93 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8acc77ec-6083-4e2c-93f5-5cb22cdb4132")
@@ -1075,18 +942,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe6c4ea3-5676-41de-8558-e674ea2a0170")
-	)
-	(no_connect
-		(at 180.34 76.2)
-		(uuid "2a36cae0-fa23-4037-8c30-c6d0415e284a")
-	)
-	(no_connect
-		(at 180.34 66.04)
-		(uuid "bad82eca-fad4-4ce6-ba80-51392b6c11b0")
-	)
-	(no_connect
-		(at 180.34 68.58)
-		(uuid "ce149c56-01a5-45a2-ae5e-1efd6d38b24a")
 	)
 	(wire
 		(pts
@@ -1140,7 +995,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 74.93) (xy 93.98 74.93)
+			(xy 74.93 74.93) (xy 93.98 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1150,7 +1005,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 83.82) (xy 106.68 83.82)
+			(xy 74.93 83.82) (xy 106.68 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1160,7 +1015,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 74.93) (xy 62.23 72.39)
+			(xy 74.93 74.93) (xy 74.93 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1180,23 +1035,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 82.55) (xy 62.23 83.82)
+			(xy 74.93 82.55) (xy 74.93 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9c9e5231-dc93-47f7-b1c3-ef9b4a30f6b3")
-	)
-	(wire
-		(pts
-			(xy 83.82 77.47) (xy 93.98 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a925d0ed-fcf5-4763-875d-bda13015680b")
 	)
 	(wire
 		(pts
@@ -1271,12 +1116,12 @@
 	)
 	(hierarchical_label "CAN-"
 		(shape bidirectional)
-		(at 180.34 71.12 180)
+		(at 187.96 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6c873749-0f21-4b7a-98e6-143ab13d74eb")
 	)
@@ -1325,8 +1170,76 @@
 		(uuid "bcbe4965-29f1-4bac-a6d6-ae5dc8ee2377")
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 184.15 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "078dc03f-82a9-4c9a-b7b8-595e68db0399")
+		(property "Reference" "JP3"
+			(at 184.15 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 184.15 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 184.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 184.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d4b42d8-1eff-460a-b238-3231caf104d8")
+		)
+		(pin "1"
+			(uuid "70524abc-6aff-4d64-a860-e95b1282b43e")
+		)
+		(instances
+			(project "LV3-Dash"
+				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/61479cd4-0d84-48d3-a2a5-35c815fbc6c8/26a5cdba-a2c0-4c6f-9b9d-6ff8cc92f2cc"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
-		(at 62.23 72.39 0)
+		(at 74.93 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1335,7 +1248,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fde0513-7641-4185-b05d-bb4a877c13cd")
 		(property "Reference" "#PWR019"
-			(at 62.23 76.2 0)
+			(at 74.93 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1344,7 +1257,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 62.23 67.31 0)
+			(at 74.93 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1352,7 +1265,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 72.39 0)
+			(at 74.93 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1361,7 +1274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 72.39 0)
+			(at 74.93 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,7 +1283,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 62.23 72.39 0)
+			(at 74.93 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,71 +1599,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 78.74 77.47 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4b2f8c5-0bfd-434b-8b57-d0e4ed14607d")
-		(property "Reference" "J3"
-			(at 78.74 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 78.74 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 78.74 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 78.74 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "843cf92a-f554-4afe-a698-a2e3c3bb1e72")
-		)
-		(instances
-			(project "LV3-Core"
-				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/61479cd4-0d84-48d3-a2a5-35c815fbc6c8/26a5cdba-a2c0-4c6f-9b9d-6ff8cc92f2cc"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 106.68 83.82 0)
 		(unit 1)
@@ -1886,7 +1734,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 62.23 78.74 0)
+		(at 74.93 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1895,7 +1743,7 @@
 		(fields_autoplaced yes)
 		(uuid "eacea099-e3d4-465a-a17b-6f1fe13509b6")
 		(property "Reference" "C15"
-			(at 66.04 77.4699 0)
+			(at 78.74 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1904,7 +1752,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 66.04 80.0099 0)
+			(at 78.74 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1913,7 +1761,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 63.1952 82.55 0)
+			(at 75.8952 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1922,7 +1770,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 78.74 0)
+			(at 74.93 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,7 +1779,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 62.23 78.74 0)
+			(at 74.93 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1949,137 +1797,6 @@
 			(project "LV3-Core"
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/61479cd4-0d84-48d3-a2a5-35c815fbc6c8/26a5cdba-a2c0-4c6f-9b9d-6ff8cc92f2cc"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:SLW-864587-2A-RA-N-D")
-		(at 180.34 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef3b4822-ab4b-482d-871a-45fb1a89e74e")
-		(property "Reference" "S4"
-			(at 199.39 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SLW-864587-2A-RA-N-D"
-			(at 199.39 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:SLW8645872ARAND"
-			(at 199.39 160.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/slw-864587-2a-ra-n-d.pdf"
-			(at 199.39 260.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "8.6 x 4.5 x 8.7 mm, 2 mm Raised Slide Actuator, Right Angle, Through Hole, Slide Switch"
-			(at 180.34 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "6.3"
-			(at 199.39 460.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "179-SLW8645872ARAND"
-			(at 199.39 560.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/SLW-864587-2A-RA-N-D?qs=IKkN%2F947nfDwxE1B2lS5tw%3D%3D"
-			(at 199.39 660.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Same Sky"
-			(at 199.39 760.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SLW-864587-2A-RA-N-D"
-			(at 199.39 860.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3467e850-c806-4688-aaca-9a6293b63749")
-		)
-		(pin "4"
-			(uuid "924a0957-95b1-45fd-9ab9-efe4236cea59")
-		)
-		(pin "5"
-			(uuid "e43a1017-31a7-46e0-8381-cd103afaa7e6")
-		)
-		(pin "1"
-			(uuid "17fac77f-e580-4f58-a608-00c70a19dea4")
-		)
-		(pin "3"
-			(uuid "953e02a3-f82f-438f-8b2b-b6c1cc652a63")
-		)
-		(instances
-			(project "LV3-Core"
-				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/61479cd4-0d84-48d3-a2a5-35c815fbc6c8/26a5cdba-a2c0-4c6f-9b9d-6ff8cc92f2cc"
-					(reference "S4")
 					(unit 1)
 				)
 			)

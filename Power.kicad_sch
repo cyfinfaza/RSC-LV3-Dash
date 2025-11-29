@@ -2436,16 +2436,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 48.26) (xy 224.79 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04e5a87a-6135-4889-8fff-f3bacd906d31")
-	)
-	(wire
-		(pts
 			(xy 54.61 110.49) (xy 58.42 110.49)
 		)
 		(stroke
@@ -2503,16 +2493,6 @@
 			(type default)
 		)
 		(uuid "136346f6-180f-4f41-b591-76f322d289c3")
-	)
-	(wire
-		(pts
-			(xy 209.55 81.28) (xy 217.17 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "146de896-fe30-4ce3-b9d3-bdb551c7e4ac")
 	)
 	(wire
 		(pts
@@ -2593,16 +2573,6 @@
 			(type default)
 		)
 		(uuid "2380cda9-d15b-4f85-86bc-c9dc87117e99")
-	)
-	(wire
-		(pts
-			(xy 233.68 81.28) (xy 234.95 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24bc2792-cc84-41d6-ba22-bf628593383a")
 	)
 	(wire
 		(pts
@@ -3016,26 +2986,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 48.26) (xy 234.95 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b12fb27c-e2b9-4d75-8621-ac723faaf938")
-	)
-	(wire
-		(pts
-			(xy 209.55 80.01) (xy 209.55 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b47774c9-36e6-483a-a295-9c3f00844b39")
-	)
-	(wire
-		(pts
 			(xy 153.67 64.77) (xy 153.67 80.01)
 		)
 		(stroke
@@ -3146,16 +3096,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 81.28) (xy 224.79 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4ff17bf-9333-461e-801a-62f3e70ac6c6")
-	)
-	(wire
-		(pts
 			(xy 124.46 80.01) (xy 132.08 80.01)
 		)
 		(stroke
@@ -3216,16 +3156,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 46.99) (xy 209.55 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7cffb46-ce45-41c6-9e3d-a945a37793fe")
-	)
-	(wire
-		(pts
 			(xy 27.94 82.55) (xy 24.13 82.55)
 		)
 		(stroke
@@ -3243,16 +3173,6 @@
 			(type default)
 		)
 		(uuid "ec6be01d-13dc-4e45-bde9-db0d8936ffae")
-	)
-	(wire
-		(pts
-			(xy 209.55 48.26) (xy 217.17 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3a2ff96-5a38-4c54-abb4-199bad33a3c3")
 	)
 	(wire
 		(pts
@@ -3617,74 +3537,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 50.8 123.19 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17538ecd-fe61-4251-81b7-38c0b17db9a9")
-		(property "Reference" "D4"
-			(at 51.1175 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 51.1175 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 50.8 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 50.8 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "468290c4-befe-4bb9-8f1a-fd27ea8d5863")
-		)
-		(pin "2"
-			(uuid "886862b8-325c-4a71-b42c-915017a82171")
-		)
-		(instances
-			(project "LV3-Core"
-				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 63.5 46.99 0)
 		(unit 1)
@@ -3825,72 +3677,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 209.55 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bcb2009-a999-4528-9fda-eb8093100815")
-		(property "Reference" "#PWR051"
-			(at 209.55 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 209.55 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 209.55 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d6da366-d547-44aa-8928-9fae94bcbf94")
-		)
-		(instances
-			(project "LV3-Core"
-				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Polyfuse")
 		(at 69.85 110.49 90)
 		(unit 1)
@@ -4022,72 +3808,6 @@
 			(project "LV3-Core"
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
 					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 234.95 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33f0d2ae-e5cd-49e2-beca-7ef8b5904498")
-		(property "Reference" "#PWR050"
-			(at 234.95 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 234.95 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72ca4303-a978-492d-8bc4-4358285cfe1b")
-		)
-		(instances
-			(project "LV3-Core"
-				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -4232,6 +3952,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 143.51 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d0a07a5-26e0-4528-acc1-da3e6f5cab1f")
+		(property "Reference" "L2"
+			(at 143.51 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6.8u"
+			(at 143.51 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Bourns-SRN4018"
+			(at 143.51 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 143.51 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e71dca31-b069-4000-bba6-aa616fc46888")
+		)
+		(pin "1"
+			(uuid "4a39a710-3ba3-4899-9a35-0c6cf0a8937c")
+		)
+		(instances
+			(project "LV3-Dash"
+				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 80.01 86.36 0)
 		(unit 1)
@@ -4363,6 +4151,74 @@
 			(project ""
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 50.8 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dd548b6-96bd-4a87-b0a8-38cd381b84a8")
+		(property "Reference" "D4"
+			(at 51.1175 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 51.1175 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 50.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 50.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28b1cf90-371d-475f-8b98-fa1b30885785")
+		)
+		(pin "2"
+			(uuid "aecb1776-cfa8-4c51-90de-6bfd1701fa5c")
+		)
+		(instances
+			(project "LV3-Dash"
+				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4850,6 +4706,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 50.8 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6946b827-46b8-4149-bf4a-8bcca4dfea86")
+		(property "Reference" "D6"
+			(at 51.1175 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 51.1175 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b7d9ebf-24cd-42a5-be57-eaaa19f99e80")
+		)
+		(pin "2"
+			(uuid "e52348a3-21e5-439c-ac27-c5252e20eeb8")
+		)
+		(instances
+			(project "LV3-Dash"
+				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 38.1 157.48 0)
 		(unit 1)
@@ -5260,210 +5184,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 143.51 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a6a0161-e07f-44ef-b73d-0e20023896cf")
-		(property "Reference" "L2"
-			(at 143.51 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SRU1063A-4R7Y"
-			(at 143.51 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_Bourns-SRU1028_10.0x10.0mm"
-			(at 143.51 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 143.51 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8221df3f-c5f7-4dbe-9706-8f42e07fd5e4")
-		)
-		(pin "1"
-			(uuid "e6cc5858-5d6e-4fb0-aea9-b9f6dbce824e")
-		)
-		(instances
-			(project ""
-				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 50.8 135.89 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9461139d-808f-4921-b214-348e63f156cc")
-		(property "Reference" "D6"
-			(at 51.1175 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 51.1175 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 50.8 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 50.8 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38a2e021-380e-4332-9b81-db73fde65dc3")
-		)
-		(pin "2"
-			(uuid "b754d9cd-6582-42fe-a821-016d4e4ed6f0")
-		)
-		(instances
-			(project "LV3-Core"
-				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 220.98 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95076d64-f85e-4546-859f-f6238f2a7da0")
-		(property "Reference" "R24"
-			(at 220.98 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120"
-			(at 220.98 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 220.98 83.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 220.98 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f9c18b6-d740-4ba5-b113-1c5761f8b5db")
-		)
-		(pin "2"
-			(uuid "392f5cb0-7975-4c9e-95c7-c94dbfdc2009")
-		)
-		(instances
-			(project "LV3-Core"
-				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 63.5 50.8 0)
 		(unit 1)
@@ -5862,149 +5582,6 @@
 			(project "LV3-Core"
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 229.87 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6988f95-d1c4-448e-92f6-863010658bf5")
-		(property "Reference" "D12"
-			(at 231.4575 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 231.4575 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 229.87 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 229.87 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 229.87 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72fef1d0-ec5b-424d-ae1c-4a72ba9cb628")
-		)
-		(pin "2"
-			(uuid "11df9c12-5d4e-4ca0-b60c-fe209e1fe690")
-		)
-		(instances
-			(project "LV3-Core"
-				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 234.95 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7025bce-b230-4c57-a707-ba90f61bef34")
-		(property "Reference" "#PWR055"
-			(at 234.95 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 234.95 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e353d05d-afd7-4f6b-a21e-2e5c21b93205")
-		)
-		(instances
-			(project "LV3-Core"
-				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
-					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -6680,83 +6257,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 229.87 48.26 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4c874fe-e1e6-410d-9fce-2320db702027")
-		(property "Reference" "D10"
-			(at 231.4575 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 231.4575 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 229.87 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 229.87 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 229.87 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ebe81880-e524-4596-b137-a89fdec46877")
-		)
-		(pin "2"
-			(uuid "d371f028-b6e5-4594-b25f-14fe5b476234")
-		)
-		(instances
-			(project "LV3-Core"
-				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 181.61 80.01 0)
 		(unit 1)
@@ -7022,74 +6522,6 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 50.8 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e31268d3-754c-4236-a100-0574540e2581")
-		(property "Reference" "D3"
-			(at 51.1175 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 51.1175 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 50.8 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 50.8 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "350a3624-4b93-4e74-a9a4-1341ff282305")
-		)
-		(pin "2"
-			(uuid "edc07f1a-35d5-41ac-bdff-252bbb781399")
-		)
-		(instances
-			(project ""
-				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
 		(at 52.07 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7294,99 +6726,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 209.55 80.01 0)
+		(lib_id "Device:D_Schottky")
+		(at 50.8 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f5786685-6c45-4fff-82d6-2949c7310c8b")
-		(property "Reference" "#PWR054"
-			(at 209.55 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 209.55 74.93 0)
+		(uuid "f83aebe5-8682-411d-876a-d21978d7da12")
+		(property "Reference" "D3"
+			(at 51.1175 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 209.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 209.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b909c326-7705-4485-9fb6-4edf177a5470")
-		)
-		(instances
-			(project "LV3-Core"
-				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 220.98 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff0ccadd-3162-4564-87b5-a09444f0e747")
-		(property "Reference" "R22"
-			(at 220.98 41.91 90)
+		(property "Value" "D_Schottky"
+			(at 51.1175 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2.2k"
-			(at 220.98 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 220.98 50.038 90)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 50.8 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7395,7 +6761,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 48.26 0)
+			(at 50.8 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7403,8 +6769,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 220.98 48.26 0)
+		(property "Description" "Schottky diode"
+			(at 50.8 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7413,15 +6779,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "69759c53-8744-49bf-b246-2f8bc7b29fb2")
+			(uuid "b16feec0-003d-4139-930b-538bbb9f47b7")
 		)
 		(pin "2"
-			(uuid "fa7cfd8d-2f3c-42a5-8750-b0b769faf888")
+			(uuid "c2593778-b802-456b-a12c-2e41d05a7e58")
 		)
 		(instances
-			(project "LV3-Core"
+			(project "LV3-Dash"
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
-					(reference "R22")
+					(reference "D3")
 					(unit 1)
 				)
 			)
