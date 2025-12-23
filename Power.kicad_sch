@@ -5,119 +5,6 @@
 	(uuid "06a5a230-c070-42c5-b4f1-fd7f29b30dff")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x01"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -540,142 +427,6 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Fuse"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1294,192 +1045,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2343,12 +1908,6 @@
 		(uuid "ad4eb15e-7819-4c84-8e56-94c1fe1995b8")
 	)
 	(junction
-		(at 43.18 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b008c255-fc81-4250-b1e3-a162372ee32c")
-	)
-	(junction
 		(at 96.52 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2523,16 +2082,6 @@
 			(type default)
 		)
 		(uuid "1af2a260-84ab-42af-afd6-da7afc5ad8a7")
-	)
-	(wire
-		(pts
-			(xy 35.56 82.55) (xy 43.18 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bf142eb-241c-4611-96af-04f82ccd5f0a")
 	)
 	(wire
 		(pts
@@ -2733,16 +2282,6 @@
 			(type default)
 		)
 		(uuid "690484ee-432b-4b52-a069-88e0a4d4b702")
-	)
-	(wire
-		(pts
-			(xy 43.18 82.55) (xy 48.26 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69457f66-e76f-4ffb-a520-0b15dc9ddc53")
 	)
 	(wire
 		(pts
@@ -3086,16 +2625,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 92.71) (xy 43.18 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d44561b1-4a68-4b1d-95d2-617863604758")
-	)
-	(wire
-		(pts
 			(xy 124.46 80.01) (xy 132.08 80.01)
 		)
 		(stroke
@@ -3136,16 +2665,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 92.71) (xy 43.18 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2f54352-ab63-4fb8-8533-5353320ab741")
-	)
-	(wire
-		(pts
 			(xy 58.42 123.19) (xy 58.42 110.49)
 		)
 		(stroke
@@ -3156,7 +2675,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 82.55) (xy 24.13 82.55)
+			(xy 24.13 82.55) (xy 48.26 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3808,74 +3327,6 @@
 			(project "LV3-Core"
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
 					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 31.75 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35205795-83f5-422b-aaea-6c41d1606a41")
-		(property "Reference" "JP1"
-			(at 31.75 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 31.75 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 31.75 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 31.75 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6db84294-b507-4971-8ea5-12fda4d06c3c")
-		)
-		(pin "1"
-			(uuid "c1eb4f37-46b5-472b-9dd1-c2a2b686bb3d")
-		)
-		(instances
-			(project ""
-				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -4564,6 +4015,75 @@
 			(project "LV3-Core"
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 50.8 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64ed5d82-d84f-4125-b140-52181e88902e")
+		(property "Reference" "F1"
+			(at 50.8 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Polyfuse"
+			(at 50.8 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+			(at 55.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 50.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d6fd77e-d4ef-4432-87a3-68e1c056954a")
+		)
+		(pin "1"
+			(uuid "5a9cdc26-abe0-4b86-9529-dd1c1a29c552")
+		)
+		(instances
+			(project "LV3-Dash"
+				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -5783,74 +5303,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 50.8 33.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4a041ca-4b5b-4a18-9a24-eb7024edd3f9")
-		(property "Reference" "F1"
-			(at 50.8 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 50.8 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
-			(at 50.8 34.798 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 50.8 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5a88840a-60cf-46b3-86b3-deeb46b91f56")
-		)
-		(pin "1"
-			(uuid "73bf0318-0950-416a-9049-f71faa76ea43")
-		)
-		(instances
-			(project ""
-				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 76.2 46.99 0)
 		(unit 1)
@@ -6050,71 +5502,6 @@
 			(project ""
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 33.02 92.71 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cdb9f3dc-3441-4edc-bfc6-a9dcca1da857")
-		(property "Reference" "J10"
-			(at 33.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 33.02 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 33.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 33.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5e7faa8-a26b-415e-9135-dd37794a870b")
-		)
-		(instances
-			(project "LV3-Core"
-				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/5e700bbe-1f69-4433-b621-e458f2a62014"
-					(reference "J10")
 					(unit 1)
 				)
 			)
