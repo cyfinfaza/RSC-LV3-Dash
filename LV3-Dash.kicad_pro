@@ -505,7 +505,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "LV3-Dash.dsn",
+      "specctra_dsn": "../../../Downloads/lv3-dash-dsn-test.dsn",
       "step": "",
       "svg": "",
       "vrml": ""

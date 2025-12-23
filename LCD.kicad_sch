@@ -3509,7 +3509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16c83326-73ed-4f53-9d79-7128e99048d0")
-		(property "Reference" "C30"
+		(property "Reference" "C32"
 			(at 58.42 44.4499 0)
 			(effects
 				(font
@@ -3563,7 +3563,7 @@
 		(instances
 			(project "LV3-Dash"
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/f7a4fe37-1cad-43ab-9c93-c2f14895ea87"
-					(reference "C30")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -3579,7 +3579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1db41e64-eae5-47f5-9487-193825ebd7af")
-		(property "Reference" "U3"
+		(property "Reference" "U6"
 			(at 78.3433 43.18 0)
 			(effects
 				(font
@@ -3647,7 +3647,7 @@
 		(instances
 			(project ""
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/f7a4fe37-1cad-43ab-9c93-c2f14895ea87"
-					(reference "U3")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3663,7 +3663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27985768-c4b6-4b79-a015-fd71531ab64a")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR057"
 			(at 271.78 44.45 0)
 			(effects
 				(font
@@ -3713,7 +3713,7 @@
 		(instances
 			(project "LV3-Dash"
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/f7a4fe37-1cad-43ab-9c93-c2f14895ea87"
-					(reference "#PWR056")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3729,7 +3729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "485e2b90-88d8-4558-96d7-26f89c2480b7")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR061"
 			(at 229.87 146.05 0)
 			(effects
 				(font
@@ -3779,7 +3779,7 @@
 		(instances
 			(project ""
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/f7a4fe37-1cad-43ab-9c93-c2f14895ea87"
-					(reference "#PWR02")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3795,7 +3795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57997236-ce69-41db-896e-6ee7f5cc6a9a")
-		(property "Reference" "R7"
+		(property "Reference" "R25"
 			(at 220.98 102.8699 0)
 			(effects
 				(font
@@ -3849,7 +3849,7 @@
 		(instances
 			(project "LV3-Dash"
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/f7a4fe37-1cad-43ab-9c93-c2f14895ea87"
-					(reference "R7")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -3865,7 +3865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68cf6d5d-e9d2-42e7-97a7-0e9fb8f05571")
-		(property "Reference" "R25"
+		(property "Reference" "R24"
 			(at 118.11 58.4199 0)
 			(effects
 				(font
@@ -3919,7 +3919,7 @@
 		(instances
 			(project "LV3-Dash"
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/f7a4fe37-1cad-43ab-9c93-c2f14895ea87"
-					(reference "R25")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3935,7 +3935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "754bd63e-8e40-49ec-8586-816270284b72")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR056"
 			(at 54.61 41.91 0)
 			(effects
 				(font
@@ -3985,7 +3985,7 @@
 		(instances
 			(project "LV3-Dash"
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/f7a4fe37-1cad-43ab-9c93-c2f14895ea87"
-					(reference "#PWR022")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4001,7 +4001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bf6805a-9924-4177-855e-d2af6fe21ed4")
-		(property "Reference" "D14"
+		(property "Reference" "D10"
 			(at 98.1075 31.75 0)
 			(effects
 				(font
@@ -4053,7 +4053,7 @@
 		(instances
 			(project "LV3-Dash"
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/f7a4fe37-1cad-43ab-9c93-c2f14895ea87"
-					(reference "D14")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -4069,7 +4069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e1c1dd6-2202-4574-a9be-18d7b7d2a8c6")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR060"
 			(at 180.34 101.6 0)
 			(effects
 				(font
@@ -4119,7 +4119,7 @@
 		(instances
 			(project "LV3-Dash"
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/f7a4fe37-1cad-43ab-9c93-c2f14895ea87"
-					(reference "#PWR014")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4135,7 +4135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaa69983-b4a9-4451-aef9-9443edbe8e3d")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR055"
 			(at 232.41 36.83 0)
 			(effects
 				(font
@@ -4185,7 +4185,7 @@
 		(instances
 			(project "LV3-Dash"
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/f7a4fe37-1cad-43ab-9c93-c2f14895ea87"
-					(reference "#PWR03")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4201,7 +4201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5ef8622-4bdf-4c1b-91de-f39dce3bfd66")
-		(property "Reference" "R5"
+		(property "Reference" "R26"
 			(at 208.28 119.3799 0)
 			(effects
 				(font
@@ -4255,7 +4255,7 @@
 		(instances
 			(project "LV3-Dash"
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/f7a4fe37-1cad-43ab-9c93-c2f14895ea87"
-					(reference "R5")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -4271,7 +4271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce47fcb1-20e9-4ce7-a786-8e02c1aca4bd")
-		(property "Reference" "C18"
+		(property "Reference" "C33"
 			(at 113.03 45.7199 0)
 			(effects
 				(font
@@ -4325,7 +4325,7 @@
 		(instances
 			(project "LV3-Dash"
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/f7a4fe37-1cad-43ab-9c93-c2f14895ea87"
-					(reference "C18")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -4409,7 +4409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2dc6552-2029-4e72-a497-bbba118e84fb")
-		(property "Reference" "R15"
+		(property "Reference" "R27"
 			(at 218.44 119.3799 0)
 			(effects
 				(font
@@ -4463,7 +4463,7 @@
 		(instances
 			(project "LV3-Dash"
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/f7a4fe37-1cad-43ab-9c93-c2f14895ea87"
-					(reference "R15")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -4479,7 +4479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d97e65a2-66ad-4338-b874-cfe14d5608bd")
-		(property "Reference" "R26"
+		(property "Reference" "R23"
 			(at 45.72 50.7999 0)
 			(effects
 				(font
@@ -4533,7 +4533,7 @@
 		(instances
 			(project "LV3-Dash"
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/f7a4fe37-1cad-43ab-9c93-c2f14895ea87"
-					(reference "R26")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -4549,7 +4549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e32d9c3c-56c5-4eb2-976f-600465f3f7cb")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR058"
 			(at 43.18 52.07 0)
 			(effects
 				(font
@@ -4599,7 +4599,7 @@
 		(instances
 			(project "LV3-Dash"
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/f7a4fe37-1cad-43ab-9c93-c2f14895ea87"
-					(reference "#PWR023")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4615,7 +4615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3e76380-cf0e-4a35-9e9e-b5e959dbdb65")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR059"
 			(at 76.2 72.39 0)
 			(effects
 				(font
@@ -4665,7 +4665,7 @@
 		(instances
 			(project "LV3-Dash"
 				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/f7a4fe37-1cad-43ab-9c93-c2f14895ea87"
-					(reference "#PWR021")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
