@@ -5177,12 +5177,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_AUX"
-			(at 261.62 25.4 0)
+		(property "Value" "+5V"
+			(at 264.16 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
