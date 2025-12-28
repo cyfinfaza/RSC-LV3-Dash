@@ -6142,12 +6142,12 @@
 	(symbol
 		(lib_id "Device:D_Zener_Dual_CommonAnode_KKA")
 		(at 236.22 100.33 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ea572b3c-d8ce-4d2a-a83a-47e78b7c0810")
 		(property "Reference" "D11"
 			(at 236.22 93.98 0)
