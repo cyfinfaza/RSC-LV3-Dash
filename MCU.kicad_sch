@@ -5715,6 +5715,10 @@
 		(uuid "27be07e2-a446-48db-83b8-9eca43ccdcbc")
 	)
 	(no_connect
+		(at 215.9 120.65)
+		(uuid "2dbc7335-af28-4c57-8bbd-9c661237643e")
+	)
+	(no_connect
 		(at 261.62 52.07)
 		(uuid "327e88ac-62f3-4929-ab33-902656226122")
 	)
@@ -6767,28 +6771,6 @@
 		(uuid "0e156810-6954-4a48-b024-589c0c068425")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 206.9277 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LCD_EN"
-		(shape output)
-		(at 215.9 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0e72267f-da4b-4116-87f8-49185c5d37af")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.8996 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
