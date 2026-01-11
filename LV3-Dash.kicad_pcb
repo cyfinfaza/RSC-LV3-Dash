@@ -26112,7 +26112,7 @@
 		(layer "Edge.Cuts")
 		(uuid "f3402ead-3783-4f8e-8e04-749bfa58d2bc")
 	)
-	(gr_text "C3•D0 A•RX"
+	(gr_text "C3/D0•RX"
 		(at 120.5 85.5 90)
 		(layer "F.SilkS")
 		(uuid "041d1e10-e5e2-4732-99bb-c0989abcee44")
@@ -26150,7 +26150,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "B3•BCLK"
+	(gr_text "B3•BCLK*"
 		(at 121 55 90)
 		(layer "F.SilkS")
 		(uuid "332c99ca-f694-46b6-8975-d1d31d7556d6")
@@ -26203,7 +26203,7 @@
 		)
 	)
 	(gr_text "LV3 Dash"
-		(at 76.453204 71.780286 0)
+		(at 77.953204 71.780286 0)
 		(layer "F.SilkS" knockout)
 		(uuid "50c7eee1-22ba-4e0e-bb98-f20c9426fd1d")
 		(effects
@@ -26268,6 +26268,17 @@
 			(justify right)
 		)
 	)
+	(gr_text "*shared with ITM/SWO"
+		(at 106 53 0)
+		(layer "F.SilkS")
+		(uuid "83c3aa1c-fc09-4191-a64e-5c9f69ac647b")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+			)
+		)
+	)
 	(gr_text "A15•WS"
 		(at 126 55 90)
 		(layer "F.SilkS")
@@ -26307,7 +26318,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "C2•D1 A•TX"
+	(gr_text "C2/D1•TX"
 		(at 123.490105 85.489277 90)
 		(layer "F.SilkS")
 		(uuid "aa2276fa-c588-447e-987a-51a568dfb046")
@@ -26360,7 +26371,7 @@
 		)
 	)
 	(gr_text "r0 • Jan 2026 • Cy Westbrook"
-		(at 88.5 71.7 0)
+		(at 90 71.7 0)
 		(layer "F.SilkS")
 		(uuid "e636c4af-42f6-4c4c-90dd-ba986905b7e7")
 		(effects
@@ -26399,6 +26410,58 @@
 			(justify right)
 		)
 	)
+	(gr_text "A15•WS"
+		(at 126 55 90)
+		(layer "B.SilkS")
+		(uuid "5ea2e994-bb83-4367-b772-fccc802333b4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.18)
+				(bold yes)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 131 55 90)
+		(layer "B.SilkS")
+		(uuid "71213f3e-99b4-4283-b777-c3a305e3eb61")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.18)
+				(bold yes)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "A7•SD"
+		(at 123.5 55 90)
+		(layer "B.SilkS")
+		(uuid "9f136efa-f3ea-4484-880c-3e4c73ea35e7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.18)
+				(bold yes)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "+5V"
+		(at 128.5 55 90)
+		(layer "B.SilkS")
+		(uuid "9f93f00e-5098-4f36-923c-b544ec1bc30d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.18)
+				(bold yes)
+			)
+			(justify left mirror)
+		)
+	)
 	(gr_text "r0 • Jan 2026\nCy Westbrook"
 		(at 70.180249 59.481579 0)
 		(layer "B.SilkS")
@@ -26423,6 +26486,19 @@
 				(thickness 0.3048)
 				(bold yes)
 				(italic yes)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "B3•BCLK*"
+		(at 121 55 90)
+		(layer "B.SilkS")
+		(uuid "e72efe1c-6f28-4012-a5e8-6d850af3a939")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.18)
+				(bold yes)
 			)
 			(justify left mirror)
 		)
@@ -26453,7 +26529,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3543.3071"
+		(gr_text "90"
 			(at 95.000001 116.417404 0)
 			(layer "Dwgs.User")
 			(uuid "17659ebf-33c0-43af-918f-0b0566082a18")
@@ -26491,7 +26567,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "944.8819"
+		(gr_text "24"
 			(at 83.008506 33.056491 0)
 			(layer "Dwgs.User")
 			(uuid "1991b2c3-2b7f-44e7-9aff-c15263a9bb87")
@@ -26529,7 +26605,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1771.6536"
+		(gr_text "45"
 			(at 72.500001 109.417404 0)
 			(layer "Dwgs.User")
 			(uuid "258190d3-b29d-444d-b0f9-79890a803538")
@@ -26567,7 +26643,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1279.5276"
+		(gr_text "32.5"
 			(at 41.35 83.959962 90)
 			(layer "Dwgs.User")
 			(uuid "f9bd862e-7123-4c82-9e0b-f52af53c5df7")
